@@ -4,7 +4,9 @@ An accessible vml button generator
 ## A normal Html link with two vml shapes
 
 
-Here is another generator, to obtain a rounded button on Outlook. Unlike classic button shapes using vml code (with the v:roundrect form), here I surround the html link with two vml shapes to create the rounding. (shapes). 
+Here is another generator, to obtain a rounded button on Outlook. 
+
+Unlike classic button shapes using the vml v:roundrect component, here I surround the html link with two vml v:shape components to create the round corners. 
 
 The path of these two shapes is calculated from the font size, the border-radius, the font itself, and the padding. 
 
