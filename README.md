@@ -4,12 +4,21 @@ An accessible vml button generator
 ## A normal Html link with two vml shapes
 
 
-Here is another generator, to obtain a rounded button on Outlook. Unlike classic button shapes using vml code (with the v:roundrect form), here I surround the html link with two vml shapes to create the rounding. (shapes). The path of these two shapes is calculated from the font size, the border-radius, the font itself, and the padding. To ensure the correct placement of the shapes around the link, a fixed size and height are automatically calculated. All you have to do is copy and paste the code. 
+Here is another generator, to obtain a rounded button on Outlook. Unlike classic button shapes using vml code (with the v:roundrect form), here I surround the html link with two vml shapes to create the rounding. (shapes). 
+
+The path of these two shapes is calculated from the font size, the border-radius, the font itself, and the padding. 
+
+To ensure the correct placement of the shapes around the link, a fixed size and height are automatically calculated. All you have to do is copy and paste the code. 
 
 ## A complete accessible vml buton on Narrator and NVDA
 
-The classic vml button which uses the roundrect form is not recognized by main screen readers (NVDA, Jaws etc). The link is the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
-This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr does not use the roundrect component, but surrounds the html link with two shapes components. The html link therefore remains intact and is correctly interpreted by screen readers
+The classic vml button which uses the roundrect form is not recognized by main screen readers (NVDA, Jaws etc). 
+
+The link is the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
+
+This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr does not use the roundrect component, but surrounds the html link with two shapes components. 
+
+The html link therefore remains intact and is correctly interpreted by screen readers
 
 ## Navigating with a screen reader
 Classic navigation keys on Narrator and NVDA work normaly: 
