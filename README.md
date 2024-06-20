@@ -31,8 +31,8 @@ Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
 
 
 Narrator Link table :
-![Narrator Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/main/narrator-link-table.png)
+![Narrator Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/narrator-link-table.png)
 
 
 NVDA Link table :
-![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/main/Nvda-element-list.PNG)
+![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/Nvda-element-list.PNG)
