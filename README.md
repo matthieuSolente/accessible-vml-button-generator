@@ -1,10 +1,10 @@
-# accessible-vml-button-generator
-An accessible vml button generator
+# accessible-vml-button-generator-for-email
+An accessible vml button generator for Email
 
 ## A normal Html link with two vml shapes
 
 
-Here is another generator, to obtain a rounded button on Outlook. 
+Here is another generator, to obtain a rounded button on Outlook (windows). 
 
 Unlike classic button shapes using the vml v:roundrect component, here I surround the html link with two vml v:shape components to create the round corners. 
 
@@ -14,11 +14,11 @@ To ensure the correct placement of the shapes around the link, a fixed size and 
 
 ## A complete accessible vml buton on Narrator and NVDA
 
-The classic vml button which uses the roundrect form is not recognized by main screen readers (NVDA, Jaws etc). 
+The classic vml button which uses the v:roundrect component is not recognized by main screen readers (NVDA, Jaws etc). 
 
-The link is the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
+The link and the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
 
-This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr does not use the roundrect component, but surrounds the html link with two shapes components. 
+This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr separates the html link from the vml code, in order to guarantee greater accessibility. 
 
 The html link therefore remains intact and is correctly interpreted by screen readers
 
