@@ -62,3 +62,7 @@ NVDA Link table :
 Here I inserted two hyperlinks as well as my automatically generated button (with the text "show me the button!")
 
 ![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/Nvda-element-list.PNG)
+
+
+as you can see on these two screenshots, the link is correctly interpreted
+
