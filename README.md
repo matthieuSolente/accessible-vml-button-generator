@@ -8,6 +8,31 @@ Here is another generator, to obtain a rounded button on Outlook. Unlike classic
 
 ## A complete accessible vml buton on Narrator and NVDA
 
-This form of button is much more accessible than a classic vml button (like that of buttons.cm). It is already read by screen readers, unlike the classic vml button which is ignored entirely. Classic navigation keys on Narrator and NVDA work: Autoplay reads the link. The tab key navigates the link. The K key (to navigate from link to link) also recognizes the link, and the table of elements, both on Narrator and on NVDA, lists the link.
+The classic vml button which uses the roundrect form is not recognized by main screen readers (NVDA, Jaws etc). The link is the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
+This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr does not use the roundrect component, but surrounds the html link with two shapes components. The html link therefore remains intact and is correctly interpreted by screen readers
 
-so it's a huge improvement over the classic vml button
+## Navigating with a screen reader
+Classic navigation keys on Narrator and NVDA work normaly: 
+
+## NVDA
+
+Start reading continuously from this point on : Insert + down arrow
+List all links :	Insert + F7
+Go to next link	: K
+
+### Narrator:
+
+Start reading continuously from this point on	: Caps Lock + down arrow
+List all links :	Caps Lock + F7
+Go to the next link*: 	K
+
+so it's a huge improvement over the classic vml button.
+Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
+
+
+Narrator Link table :
+![alt text](https://github.com/matthieuSolente/accessible-vml-button-generator/edit/main/narrator-link-table.png?raw=true)
+
+
+NVDA Link table :
+![alt text](https://github.com/matthieuSolente/accessible-vml-button-generator/edit/main/Nvda-element-list.PNG?raw=true)
