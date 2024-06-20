@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+  <head>
+    <title>VML accessible CTA link Genrator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="coloris.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body id="body" class="button-generator">
+    <main class="wrapper">
+      <div class="flex-container">
+        <div class="flex-row">
+          <div class="flex-col-xs-12">
+            <h1 class="title">Accessible  <span class="green">VML</span> Button !</h1>
+            <p class="description">Create your <span class="green">accessible vml button</span> less than a minute! Style your button based on the preview, and copy and paste the generated code.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-row">
+          <div class="flex-col-sm-6">
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="btnText">
+                Button text
+                </label>
+                <input type="text" name="button-text" id="btnText" value="Show me the button!">
+              </div>
+              <div class="button-generator--half-row">
+                <label for="linkUrl">
+                Button URL
+                </label>
+                <input type="text" name="button-link" id="linkUrl"  value="">
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div>
+                <label for="btnClass">
+                Button Class Name
+                </label>
+                <input type="text" name="button-class" id="btnClass"  value="my-class">
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="bgColor">Background color :</label>
+                <input type="text" name="button-background-color" id="bgColor" value="#000001" data-coloris>
+              </div>
+              <div class="button-generator--half-row">
+                <label for="fontColor">font color :</label>
+                <input type="text" name="button-text-color" id="fontColor" value="#fffff2" data-coloris>
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="bRadius">Border radius</label>
+                <input type="number" name="button-border-radius" value="31" id="bRadius">
+                <aside class="px">px</aside>
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="fontBold">Bold ?</label>
+                <input type="checkbox" name="button-font-weight" id="fontBold">
+              </div>
+              <div class="button-generator--half-row">
+                <label for="textTransform">Big Caps ?</label>
+                <input type="checkbox" name="button-text-transform" id="textTransform">
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="align">Align</label>
+                <select id="align" name="button-align-button">
+                  <option value="left">Left</option>
+                  <option value="center" selected="selected">Center</option>
+                  <option value="right">Right</option>
+                </select>
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="fontSize">font size :</label>
+                <input type="number" name="button-font-size" id="fontSize" value="14">
+              </div>
+              <div class="button-generator--half-row">
+                <label for="fontFamily">font family :</label>
+                <select id="fontFamily" name="font-family">
+                  <option name="font-family-arial" value="Arial, sans-serif" selected="selected">Arial, sans-serif</option>
+                  <option name="font-family-verdana" value="Verdana, Arial, sans-serif">Verdana, Arial, sans-serif</option>
+                  <option name="font-family-tahoma" value="Tahoma, Arial, sans-serif">Tahoma, Arial, sans-serif</option>
+                  <option name="font-family-georgia" value="Georgia, serif">Georgia, serif</option>
+                  <option name="font-family-times" value="'Times New Roman', Times, serif">"Times New Roman", Times, serif</option>
+                </select>
+              </div>
+            </div>
+            <div class="button-generator--row">
+              <div class="button-generator--half-row">
+                <label for="tbPadding">Top & Bottom padding</label>
+                <input type="number" name="button-padding-top-bottom" id="tbPadding" value="10">
+                <aside class="px">px</aside>
+              </div>
+              <div class="button-generator--half-row">
+                <label for="lrPadding">Left & Right padding</label>
+                <input type="number" name="button-padding-left-right" id="lrPadding" value="31">
+                <aside class="px">px</aside>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-sm-6">
+            <div class="code-output">
+              <h3>preview</h3>
+              <div id="preview"></div>
+              <div id="wcag"></div>
+              <h3>code</h3>
+              <div class="copyPaste-block">
+                <div class="copyPaste" id="code"></div>
+                <button type="button" class="copy" id="copy" onclick="copyCode(this)" aria-hidden="false" aria-label="Copy to clipboard">Copy to Clipboard</button>
+              </div>
+              
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="coloris.js"></script>            
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
