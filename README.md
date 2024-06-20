@@ -14,7 +14,7 @@ This technique, like two others that you can find here: https://codepen.io/matth
 ## Navigating with a screen reader
 Classic navigation keys on Narrator and NVDA work normaly: 
 
-## NVDA
+### NVDA
 
 Start reading continuously from this point on : Insert + down arrow
 List all links :	Insert + F7
@@ -31,8 +31,8 @@ Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
 
 
 Narrator Link table :
-![alt text](https://github.com/matthieuSolente/accessible-vml-button-generator/edit/main/narrator-link-table.png?raw=true)
+![Narrator Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/main/narrator-link-table.png)
 
 
 NVDA Link table :
-![alt text](https://github.com/matthieuSolente/accessible-vml-button-generator/edit/main/Nvda-element-list.PNG?raw=true)
+![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/main/Nvda-element-list.PNG)
