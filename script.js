@@ -16,7 +16,7 @@
    
     rightMargin = width - 1;
     leftMargin = bRadius - 1;
-    msoTextRaise = tbPadding -2;
+    msoTextRaise = tbPadding -3;
     bgcss = 'background-color:'+$('#bgColor').val();
     bRadius = $('#bRadius').val();
     radiusmax = Math.ceil(height / 2);
