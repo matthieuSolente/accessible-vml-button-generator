@@ -14,7 +14,7 @@ To ensure the correct placement of the shapes around the link, a fixed width and
 
 ## An accessible vml buton on Narrator and NVDA (Jaws etc.)
 
-The classic vml button which uses the v:roundrect component is not recognized by main screen readers (NVDA, Jaws etc). 
+The classic vml button which uses the v:roundrect component is not recognized by many, if not all screen readers (NVDA, Jaws etc). 
 
 The link and the link text are completely ignored. This is why it is not recommended to use vml to round the buttons.
 
