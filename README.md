@@ -16,7 +16,7 @@ To ensure the correct placement of the shapes around the link, a fixed size and 
 
 The classic vml button which uses the v:roundrect component is not recognized by main screen readers (NVDA, Jaws etc). 
 
-The link and the link text is completely ignored. This is why it is not recommended to use vml to round the buttons.
+The link and the link text are completely ignored. This is why it is not recommended to use vml to round the buttons.
 
 This technique, like two others that you can find here: https://codepen.io/matthieuSolente/pen/dygzpwr separates the html link from the vml code, in order to guarantee greater accessibility. 
 
