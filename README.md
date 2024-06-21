@@ -65,3 +65,6 @@ as you can see on these two screenshots, the link is correctly interpreted
 so it's a huge improvement over the classic vml button.
 
 Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
+
+### Disadvantage
+As the button is surrounded by two vml blocks, the difference will be visible in darkmode.
