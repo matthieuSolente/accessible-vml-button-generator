@@ -61,11 +61,17 @@ Here I inserted several hyperlinks as well as my automatically generated button 
 ![Narrator Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/narrator-link-table.png)
 
 
-as you can see on these two screenshots, the link is correctly interpreted
-so it's a huge improvement over the classic vml button.
+as you can see on these two screenshots, the link is correctly interpreted.
 
-Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
+So here we have an accessible link with rounded corners on Outlook (windows) : ) 
 
-### Disadvantage
-As the button is surrounded by two vml blocks, the difference will be visible in darkmode. If you use this button, you will need to find a way to harmonize the colors
+
+Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA.
+
+For the visual rendering, the tests were carried out on Testi@ for Outlook 2019, 2021 (120 & 200 DPI), 365, Windows 10 & 11, Outlook 2007/2010/2013/2016 (120 & 200 DPI)
+
+### cons
+As the button is surrounded by two vml blocks, the difference will be visible in darkmode. If you use this button, you will need to find a way to harmonize the colors.
+To adjust the line height simply adjust the value of mso-text-raise in the generated code
+
 
