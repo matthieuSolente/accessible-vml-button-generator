@@ -8,9 +8,9 @@ Here is another generator, to obtain a rounded button on Outlook (windows).
 
 Unlike classic button shapes using the vml v:roundrect component, here I surround the html link with two vml v:shape components to create the round corners. 
 
-The path of these two shapes is calculated from the font size, the border-radius, the font itself, and the padding. 
+The path of these two shapes is calculated from the font size, the border-radius, the font itself, the padding etc. 
 
-To ensure the correct placement of the shapes around the link, a fixed size and height are automatically calculated. All you have to do is copy and paste the code. 
+To ensure the correct placement of the shapes around the link, a fixed width and height are automatically calculated. All you have to do is copy and paste the code. 
 
 ## A complete accessible vml buton on Narrator and NVDA
 
