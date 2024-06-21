@@ -35,6 +35,14 @@ List all links :	Insert + F7
 
 Go to next link	: K
 
+NVDA Link table :
+
+Here I inserted two hyperlinks as well as my automatically generated button (with the text "show me the button!")
+
+![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/Nvda-element-list.PNG)
+
+
+
 ### Narrator:
 
 The following shortcuts work, and the link is read normally
@@ -55,13 +63,6 @@ Narrator Link table :
 Here I inserted several hyperlinks as well as my automatically generated button (with the text "show me the button!")
 
 ![Narrator Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/narrator-link-table.png)
-
-
-NVDA Link table :
-
-Here I inserted two hyperlinks as well as my automatically generated button (with the text "show me the button!")
-
-![NVDA Link table](https://github.com/matthieuSolente/accessible-vml-button-generator/blob/main/Nvda-element-list.PNG)
 
 
 as you can see on these two screenshots, the link is correctly interpreted
