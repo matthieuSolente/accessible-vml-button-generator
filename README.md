@@ -1,4 +1,4 @@
-# accessible-vml-button-generator-for-email
+# Accessible vml button generator for email
 An accessible vml button generator for Email
 
 ## A normal Html link with two vml shapes
