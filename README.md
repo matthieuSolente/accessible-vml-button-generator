@@ -12,7 +12,7 @@ The path of these two shapes is calculated from the font size, the border-radius
 
 To ensure the correct placement of the shapes around the link, a fixed width and height are automatically calculated. All you have to do is copy and paste the code. 
 
-## A complete accessible vml buton on Narrator and NVDA
+## An accessible vml buton on Narrator and NVDA (Jaws etc.)
 
 The classic vml button which uses the v:roundrect component is not recognized by main screen readers (NVDA, Jaws etc). 
 
