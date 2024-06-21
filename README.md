@@ -53,10 +53,6 @@ List all links :	Caps Lock + F7
 
 Go to the next link*: 	K
 
-so it's a huge improvement over the classic vml button.
-
-Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
-
 
 Narrator Link table :
 
@@ -66,4 +62,6 @@ Here I inserted several hyperlinks as well as my automatically generated button 
 
 
 as you can see on these two screenshots, the link is correctly interpreted
+so it's a huge improvement over the classic vml button.
 
+Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
