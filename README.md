@@ -67,4 +67,5 @@ so it's a huge improvement over the classic vml button.
 Testing was performed on Outlook 365 and Windows 10 Mail with Narrator and NVDA
 
 ### Disadvantage
-As the button is surrounded by two vml blocks, the difference will be visible in darkmode.
+As the button is surrounded by two vml blocks, the difference will be visible in darkmode. If you use this button, you will need to find a way to harmonize the colors
+
