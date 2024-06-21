@@ -72,6 +72,7 @@ For the visual rendering, the tests were carried out on Testi@ for Outlook 2019,
 
 ### cons
 As the button is surrounded by two vml blocks, the difference will be visible in darkmode. If you use this button, you will need to find a way to harmonize the colors.
+
 To adjust the line height simply adjust the value of mso-text-raise in the generated code
 
 
