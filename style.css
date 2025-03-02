@@ -98,6 +98,9 @@ footer{
     background: radial-gradient(circle, rgba(39,35,44,1) 0%, rgba(74,55,98,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27232c",endColorstr="#4a3762",GradientType=1);
 }
+footer p{
+  margin:0
+}
 /***********************************************/
 /**************** COMMON RULES *********************/
 /**********************************************/
